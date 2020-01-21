@@ -85,7 +85,26 @@ of collision energy, an example showing the comparison between experimental data
 Run 2, the SIRE and the B-M analytical formalism, gave excellent results.
 ***
 **Run the code**\
-
+See the readme_run\
+Steps to follow:
+1. Compile the code:
+  g++ lhcsire.c -o code
+2. Run the code :
+At least 3 arguments are required. If less then the code gives an error. If 4 arguments then the 4rth one should be the input distribution file.\
+  arg1 --> The madx twiss file. Columns has to follow the ordering: name,s1,len1,betx1,alphax1,mux1,bety1,alphay1,muy1,dx1,dpx1,dy1,dpy1\
+  arg2 --> The input parameters file. \
+  arg3 --> The naming of the output files\
+  arg4 --> The input distribution (if the distribution is given as input, if not it assums gaussian), that has a length= # macro-particles, in action angle variables (i.e. in emittance, not in beam size)\
+To run:\
+  ./code twissfile.tfs paramsfile.dat name\
+  or\
+  ./code twissfile.tfs paramsfile.dat name distribution.txt
+3. Check the outut files when using the arg3 for the naming of the output files we get:\
+  RES_TWISS_arg3.txt --> The new twiss file after recurrences\
+  RES_EMITTANCE_arg3.txt --> The emittance at each point of the lattice after the IBS kicks (for 1-turn calculations only). Four columns (s, exm, ezm, esm)\
+  RES_Growth_Rates_arg3.txt --> File with emittances for each time step. (The Growth rates are the zeroed columns, so they are not saved. ). In this file, L{1}=timesteps (so the NIBSruns), L{2},L{3}=the emittances and energyspread=sqrt(L{4}/2).\
+  RES_DISTRIB_arg3.txt --> The distribution file, that has a length= # macro-particles. We can also ask for the output distribution. The particle distribution in all planes can be saved as often as requested during the simulation time.
+  
 ***
 **Useful links**\
 
