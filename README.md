@@ -84,8 +84,8 @@ and Splitting (BCMS) and the high luminosity (HL-LHC) parameters. For the case
 of collision energy, an example showing the comparison between experimental data coming from
 Run 2, the SIRE and the B-M analytical formalism, gave excellent results.
 ***
-**Run the code**\
-See the readme_run\
+**Run the code**
+See the readme_run for details\
 Steps to follow:
 1. Compile the code:
   g++ lhcsire.c -o code
@@ -106,5 +106,12 @@ To run:\
   RES_DISTRIB_arg3.txt --> The distribution file, that has a length= # macro-particles. We can also ask for the output distribution. The particle distribution in all planes can be saved as often as requested during the simulation time.
   
 ***
-**Useful links**\
+**Useful links**
+https://indico.cern.ch/event/647301/contributions/2630198/attachments/1489047/2313796/ABPCWGpres.pdf  \
+https://twiki.cern.ch/twiki/bin/view/ABPComputing/SIRE  \
+http://cds.cern.ch/record/1240834/files/sLHC-PROJECT-REPORT-0032.pdf?version=1  \
+https://agenda.linearcollider.org/event/4507/contributions/17682/attachments/14276/23411/CLIC_2010_IBS.pdf  \
+http://inspirehep.net/record/1507570/files/ICFA69_38-59.pdf \
+https://cds.cern.ch/record/1666863/files/CERN-THESIS-2012-368.pdf \
+https://iopscience.iop.org/article/10.1088/1742-6596/874/1/012008/pdf
 
