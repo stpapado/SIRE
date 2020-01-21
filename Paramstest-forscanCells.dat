@@ -1,0 +1,34 @@
+TEMPO 1.7E-4;	
+NIBSruns 2000;	
+oneturn 0;
+fastrun 1;
+nturnstostudy 404838275;
+checktime 1;
+epsx 0.360875E-9;	
+epsz 0.360875E-9;
+delta 0.00009046076;
+deltas 0.0749481145;
+dtimex 1.164507575E+05;
+dtimez 1.164507575E+05;
+dtimes 5.822537875E+04;
+eqx 9.474415332E-14;
+eqz 1.5510998E-16;
+eqdelta 1.335630356E-06;
+eqdeltas 0.001088409561;
+flag_rec 1;	
+damping 1;	
+IBSflag 1;	
+q_ex 1;		
+momentum 6500000;	
+numbunch 1.1E11;
+mppercell 20;		
+numpart 500000;				
+ncellx 20;		
+ncellz 40;		
+ncells %%Ncsig;		
+ncollisions 1;	
+convsteadystate 0;
+particle 1;
+istep=1;
+
+
