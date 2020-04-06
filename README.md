@@ -107,6 +107,7 @@ To run:\
   
 ***
 **Useful links**\
+https://arxiv.org/pdf/1806.07317.pdf \
 https://indico.cern.ch/event/647301/contributions/2630198/attachments/1489047/2313796/ABPCWGpres.pdf  \
 https://twiki.cern.ch/twiki/bin/view/ABPComputing/SIRE  \
 http://cds.cern.ch/record/1240834/files/sLHC-PROJECT-REPORT-0032.pdf?version=1  \
