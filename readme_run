@@ -43,9 +43,9 @@ At least 3 arguments are required. If less then the code gives an error. If 4 ar
     epsz: Starting vertical emittance (the geometrical!)
     delta: Starting energy spread
     deltas: Starting bunch length. It should be given in m the 1 sigma, then for 1ns blength (4sigma) in the params file we should put blength=(1ns/4)*clight. whenever changing blength->change also en.spread
-    dtimex: horizontal damping time
-    dtimez: vertical damping time
-    dtimes: longitudinal damping time
+    dtimex: horizontal damping time (it should be half of the damping time MADX gives, i.e. dtimex=taux_madx/2, that is because in SIRE SR damping is defined differently)
+    dtimez: vertical damping time (it should be half of the damping time MADX gives)
+    dtimes: longitudinal damping time (it should be half of the damping time MADX gives)
     eqx: Equilibrium horizontal emittance
     eqz: Equilibrium vertical emittance
     eqdelta: Equilibrium energy spread
