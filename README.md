@@ -107,12 +107,15 @@ To run:\
   
 ***
 **Useful links**\
-https://arxiv.org/pdf/1806.07317.pdf \
-https://indico.cern.ch/event/647301/contributions/2630198/attachments/1489047/2313796/ABPCWGpres.pdf  \
-https://twiki.cern.ch/twiki/bin/view/ABPComputing/SIRE  \
-http://cds.cern.ch/record/1240834/files/sLHC-PROJECT-REPORT-0032.pdf?version=1  \
-https://agenda.linearcollider.org/event/4507/contributions/17682/attachments/14276/23411/CLIC_2010_IBS.pdf  \
-http://inspirehep.net/record/1507570/files/ICFA69_38-59.pdf \
-https://cds.cern.ch/record/1666863/files/CERN-THESIS-2012-368.pdf \
-https://iopscience.iop.org/article/10.1088/1742-6596/874/1/012008/pdf
+"Impact of Non-Gaussian Beam Profiles in the Performance of Hadron Colliders" paper by S.Papadopoulou: https://arxiv.org/pdf/1806.07317.pdf \
+SIRE code for ABP CWG meeting: https://indico.cern.ch/event/647301/contributions/2630198/attachments/1489047/2313796/ABPCWGpres.pdf  \
+SIRE code for ABP CWG webpage: https://twiki.cern.ch/twiki/bin/view/ABPComputing/SIRE  \
+"Effect of intrabeam scattering and synchrotron radiation damping when reducing transverse
+emittances to augment the LHC luminosity " paper: http://cds.cern.ch/record/1240834/files/sLHC-PROJECT-REPORT-0032.pdf?version=1  \
+"Simulation of Intrabeam Scattering" presentation by Vivoli and Martini: https://agenda.linearcollider.org/event/4507/contributions/17682/attachments/14276/23411/CLIC_2010_IBS.pdf  \
+"Intrabeam Scattering" paper by Martini and F. Antoniou and Y. Papaphilippou: http://inspirehep.net/record/1507570/files/ICFA69_38-59.pdf \
+"OPTICS DESIGN OF INTRABEAM SCATTERING DOMINATED
+DAMPING RINGS" thesis of F.Antoniou: https://cds.cern.ch/record/1666863/files/CERN-THESIS-2012-368.pdf \
+"Modelling and measurements of bunch profiles at
+the LHC" IPAC paper by S.Papadopoulou: https://iopscience.iop.org/article/10.1088/1742-6596/874/1/012008/pdf
 
