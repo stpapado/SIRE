@@ -107,7 +107,7 @@ To run:\
   
 ***
 **Useful links**\
-"Impact of Non-Gaussian Beam Profiles in the Performance of Hadron Colliders" paper by S.Papadopoulou: https://arxiv.org/pdf/1806.07317.pdf \
+"Impact of Non-Gaussian Beam Profiles in the Performance of Hadron Colliders" paper by S.Papadopoulou: https://arxiv.org/pdf/1806.07317.pdf \ \
 SIRE code for ABP CWG meeting: https://indico.cern.ch/event/647301/contributions/2630198/attachments/1489047/2313796/ABPCWGpres.pdf  \
 SIRE code for ABP CWG webpage: https://twiki.cern.ch/twiki/bin/view/ABPComputing/SIRE  \
 "Effect of intrabeam scattering and synchrotron radiation damping when reducing transverse
